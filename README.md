@@ -38,3 +38,18 @@ O teste de mutação é executado com a biblioteca [stryker](https://www.npmjs.c
 ```sh
 npm run test:mutation
 ```
+
+<h2 align="center">Como foi feito</h2>
+
+Utilizamos a ferramenta do [stryker mutator](https://stryker-mutator.io/) seguindo os passos a passos do [styker no javascript](https://stryker-mutator.io/docs/stryker-js/getting-started/).
+
+Alteramos o arquivo package.json, na parte de script adicionando as seguintes linhas:
+
+```sh
+    "test:coverage": "jest --collectCoverage true",
+    "test:mutation": "stryker run"
+```
+
+E no arquivo stryker.conf ele é criado como um .json, mudamos para .js e modificamos o conteúdo dele também.
+
+Após isso, basta primeiro criar os testes unitários do seu projeto, e logo após e rodar os comandos descritos na parte prática. 
