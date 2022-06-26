@@ -52,4 +52,4 @@ Alteramos o arquivo package.json, na parte de script adicionando as seguintes li
 
 E no arquivo stryker.conf ele é criado como um .json, mudamos para .js e modificamos o conteúdo dele também.
 
-Após isso, basta primeiro criar os testes unitários do seu projeto, e logo após e rodar os comandos descritos na parte prática. 
+Após isso, basta primeiro criar os testes unitários do seu projeto, e logo após rodar os comandos descritos na parte prática. 
