@@ -41,7 +41,7 @@ npm run test:mutation
 
 <h2 align="center">Como foi feito</h2>
 
-Utilizamos a ferramenta do [stryker mutator](https://stryker-mutator.io/) seguindo os passos a passos do [styker no javascript](https://stryker-mutator.io/docs/stryker-js/getting-started/).
+Utilizamos a ferramenta do [stryker mutator](https://stryker-mutator.io/) seguindo os passos a passos do [stryker no javascript](https://stryker-mutator.io/docs/stryker-js/getting-started/).
 
 Alteramos o arquivo package.json, na parte de script adicionando as seguintes linhas:
 
